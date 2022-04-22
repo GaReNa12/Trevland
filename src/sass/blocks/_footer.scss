@@ -1,0 +1,104 @@
+.footer {
+    min-height: 348px;
+    background-color: #2694990A;
+    &__wrapper {
+        padding: 70px 0 78px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__social {
+        padding-right: 100px;
+        height: 178px;
+        width: 186px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__logo {
+        font-family: 'Ribeye';
+        letter-spacing: 0.06em;
+        font-weight: 400;
+        font-size: 24px;
+        color: #000000;
+        &:hover {
+            text-decoration: none;
+            color:#000000;
+        }
+    }
+    &__mail {
+        padding: 40px 0 20px 0;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+    }
+    &__contact {
+        padding-bottom: 10px;
+    }
+    &__email {
+        color: #000;
+        &:hover {
+            text-decoration: none;
+            color: $main-color;
+        }
+    }
+    &__social-media {
+        display: flex;
+    }
+    &__media-item:not(:last-child) {
+        padding-right: 20px;
+    }
+    &__about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__item_pt:not(:first-child) {
+        padding-top: 20px;
+    }
+    &__item {
+        font-weight: 500;
+        font-size: 16px;
+        color: #000000;
+        &:hover {
+            text-decoration: none;
+            color: $main-color;
+        }
+    }
+    &__policy {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__subscribe {
+        display: flex;
+        flex-direction: column;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 20px;
+        color: #000000;
+    }
+    &__send {
+        padding-top: 42px;
+        display: flex;
+    }
+    &__form {
+        padding-right: 35px;
+        input {
+            width: 195px;
+            height: 44px;
+            border-radius: 5px;
+            background: #FFFFFF;
+            margin-bottom: 15px;
+            border: 1px solid #e9e9e9;
+            padding: 0 20px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #000000;
+        }
+    }
+    &__links {
+        display: flex;
+        justify-content: space-around;
+    }
+}

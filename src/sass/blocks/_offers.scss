@@ -1,0 +1,67 @@
+.offers {
+    padding-top: 140px;
+    &__carousel {
+        padding: 60px 50px 0 50px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__block {
+        width: 262px;
+        height: 334px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__title {
+        padding-top: 20px;
+        font-weight: 500;
+        font-size: 24px;
+        color: #000000;
+    }
+    &__ratings {
+        width: 164px;
+        height: 30px;
+        display: flex;
+    }
+    &__geo {
+        padding-right: 50px;
+        display: flex;
+    }
+    &__star {
+        display: flex;
+    }
+    &__location {
+        padding-left: 10px;
+        font-weight: 500;
+        font-size: 20px;
+        color: #000000;
+        opacity: 0.6;
+    }
+    &__rate {
+        padding-left: 10px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000000;
+    }
+    &__subtitle {
+        padding-top: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #000000;
+        opacity: 0.6;
+    }
+    &__cost {
+        padding-top: 8px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #000000;
+        span {
+            font-size: 16px;
+            opacity: 0.6;
+        }
+    }
+}
